@@ -53,20 +53,31 @@ def predict():
     { "prediction": [ 20.35373177134412 ] }
 
     """
-
-    try:
-        clf = joblib.load("boston_housing_prediction.joblib")
-    except:
-        LOG.info("JSON payload: %s json_payload")
-        return "Model not loaded"
-
     json_payload = request.json
-    LOG.info("JSON payload: %s json_payload")
+    LOG.info(f"JSON payload: \n{json_payload}")
     inference_payload = pd.DataFrame(json_payload)
-    LOG.info("inference payload DataFrame: %s inference_payload")
+    LOG.info(f"Inference payload DataFrame: \n{inference_payload}")
+    # scale the input
     scaled_payload = scale(inference_payload)
+    # get an output prediction from the pretrained model, clf
     prediction = list(clf.predict(scaled_payload))
+    # TO DO:  Log the output prediction value
+    LOG.info(f"Prediction: \n{prediction}")
     return jsonify({'prediction': prediction})
+
+#     try:
+#         clf = joblib.load("boston_housing_prediction.joblib")
+#     except:
+#         LOG.info("JSON payload: %s json_payload")
+#         return "Model not loaded"
+
+#     json_payload = request.json
+#     LOG.info("JSON payload: %s json_payload")
+#     inference_payload = pd.DataFrame(json_payload)
+#     LOG.info("inference payload DataFrame: %s inference_payload")
+#     scaled_payload = scale(inference_payload)
+#     prediction = list(clf.predict(scaled_payload))
+#     return jsonify({'prediction': prediction})
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=5000, debug=True)
