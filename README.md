@@ -238,28 +238,28 @@ For further information on this, see [Machine Learning model training with AKS](
 
 
 * Project running on Azure App Service
-
+    
+![Screensh![Screenshot from 2022-08-04 03-38-13](https://user-images.githubusercontent.com/43646129/182887297-39b77621-6dd6-4aa3-8e42-4f16d020aa36.png)
+ot from 2022-08-04 16-28-10](https://user-images.githubusercontent.com/43646129/182887247-3af2e3e5-a1c8-4127-afe4-9f52caa83a31.png)
+ 
 * Project cloned into Azure Cloud Shell
+    ![Screenshot from 2022-08-03 23-48-12](https://user-images.githubusercontent.com/43646129/182887670-3d8ebaa4-9c7b-478b-a922-668ceb66d9e9.png)
 
 * Passing tests that are displayed after running the `make all` command from the `Makefile`
-
-* Output of a test run
+    ![Screenshot from 2022-08-04 16-37-10](https://user-images.githubusercontent.com/43646129/182888311-18de0359-240a-4d0e-9be2-8dfb9cd7fad6.png)
 
 * Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
+    ![Screenshot from 2022-08-04 05-44-30](https://user-images.githubusercontent.com/43646129/182888697-01209f61-9d3b-47f6-97a8-9373a1bae947.png)
 
 * Running Azure App Service from Azure Pipelines automatic deployment
+    ![Screenshot from 2022-08-04 16-42-05](https://user-images.githubusercontent.com/43646129/182889252-c4bf1ca4-715a-467f-9a16-cd9896c777e7.png)
 
 * Successful prediction from deployed flask app in Azure Cloud Shell.  [Use this file as a template for the deployed prediction](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh).
 The output should look similar to this:
-
-```bash
-udacity@Azure:~$ ./make_predict_azure_app.sh
-Port: 443
-{"prediction":[20.35373177134412]}
-```
+    ![Screenshot from 2022-08-04 14-52-49](https://user-images.githubusercontent.com/43646129/182889555-74819106-f6f5-4dd6-8570-ff353d2a1823.png)
 
 * Output of streamed log files from deployed application
-
+![Screenshot from 2022-08-04 14-56-27](https://user-images.githubusercontent.com/43646129/182890334-ddc26416-806a-4201-805c-a03be26f0a6d.png)
 > 
 
 ## Demo 
