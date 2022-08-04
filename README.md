@@ -10,7 +10,7 @@
 
 ## Demo 
 
-<TODO: Add link Screencast on YouTube>
+<TODO: Screencast on YouTube>
 
 ## Instructions
 
