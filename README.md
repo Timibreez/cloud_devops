@@ -8,6 +8,10 @@
 * A link to a Trello board for the project https://trello.com/invite/b/1rDvz5mi/f5c91d34c449518533a0a5ea292a7aa0/ci-cd-pipeline
 * A link to a spreadsheet that includes the original and final project plan> https://docs.google.com/spreadsheets/d/1hlY1SMvxwzYI_u0A62wVspyGrZDPAcLb-kWN-C_ZBQY/edit?usp=sharing
 
+## Demo 
+
+<TODO: Add link Screencast on YouTube>
+
 ## Instructions
 
 <TODO:  
@@ -261,9 +265,3 @@ The output should look similar to this:
 * Output of streamed log files from deployed application
 ![Screenshot from 2022-08-04 14-56-27](https://user-images.githubusercontent.com/43646129/182890334-ddc26416-806a-4201-805c-a03be26f0a6d.png)
 > 
-
-## Demo 
-
-<TODO: Add link Screencast on YouTube>
-
-
