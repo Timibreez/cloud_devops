@@ -8,7 +8,7 @@ trigger:
 
 variables:
   # Azure Resource Manager connection created during pipeline creation
-  azureServiceConnectionId: 'd5cca1c6-68ad-428a-91ee-15339a43c328'
+  azureServiceConnectionId: 'aacb9d0b-b990-4adb-8ae5-aa48ff5715d2'
 
   # Web app name
   webAppName: 'timiDevopsApp'
