@@ -262,6 +262,9 @@ ot from 2022-08-04 16-28-10](https://user-images.githubusercontent.com/43646129/
 * Successful prediction from deployed flask app in Azure Cloud Shell.  [Use this file as a template for the deployed prediction](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh).
 The output should look similar to this:
     ![Screenshot from 2022-08-04 14-52-49](https://user-images.githubusercontent.com/43646129/182889555-74819106-f6f5-4dd6-8570-ff353d2a1823.png)
+* output of the locust test running locally
+    ![locust](https://user-images.githubusercontent.com/43646129/183053432-d74763a0-2c8f-4192-8cf7-be6dba4ecf1a.png)
+
 
 * Output of streamed log files from deployed application
 ![Screenshot from 2022-08-04 14-56-27](https://user-images.githubusercontent.com/43646129/182890334-ddc26416-806a-4201-805c-a03be26f0a6d.png)
