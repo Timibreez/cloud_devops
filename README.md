@@ -266,3 +266,5 @@ The output should look similar to this:
 * Output of streamed log files from deployed application
 ![Screenshot from 2022-08-04 14-56-27](https://user-images.githubusercontent.com/43646129/182890334-ddc26416-806a-4201-805c-a03be26f0a6d.png)
 > 
+
+[![Python application test with Github Actions](https://github.com/Timibreez/cloud_devops/actions/workflows/main.yml/badge.svg)](https://github.com/Timibreez/cloud_devops/actions/workflows/main.yml)
